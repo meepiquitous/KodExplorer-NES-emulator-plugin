@@ -1,0 +1,37 @@
+{
+	"id":"NESEmu",
+	"name":"NES Emulator",
+	"title":"NES Emulator",
+	"version":"1.0",
+  "source":{
+		"icon":"{{pluginHost}}static/NES_Avatar.png"
+	},
+	"category":"media,file",
+  "description":"Nintendo Entertaiment System Emulator",
+	"keywords":"",
+	"auther":{
+		"copyright":"Nathalis Cortex",
+		"homePage":"http://www.nathalis.com",
+	}, 
+	"configItem":{
+		"pluginAuth":{
+			"type":"userSelect",
+			"value":"all:1",
+			"display":"{{LNG.Plugin.config.auth}}",
+			"desc":"{{LNG.Plugin.config.authDesc}}",
+			"require":1
+		},
+		"fileExt":{
+			"type":"tags",
+			"display":"{{LNG.Plugin.Config.fileExt}}",
+			"desc":"{{LNG.Plugin.Config.fileExtDesc}}",
+			"value":"nes",
+		},
+		"fileSort":{
+			"type":"number",
+			"display":"{{LNG.Plugin.Config.fileSort}}",
+			"desc":"{{LNG.Plugin.Config.fileSortDesc}}",
+			"value":1,
+		}
+	}
+}
